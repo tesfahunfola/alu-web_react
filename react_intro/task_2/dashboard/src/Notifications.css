@@ -1,0 +1,14 @@
+div {
+    border: 1px dashed #e0354b;
+    padding: 2vh;
+    position: relative;
+    margin: 2vh;
+}
+
+li[data-priority="default"] {
+    color: blue;
+}
+
+li[data-priority="urgent"] {
+    color: red;
+}
