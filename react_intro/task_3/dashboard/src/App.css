@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5vh;
+}
+
+.App-header {
+  min-width: 5vh;
+  display: flex;
+}
+
+.App-header .hbnb-logo {
+  height: 25vh;
+  margin-right: 10vh;
+}
+
+.App-header h1 {
+  font-size: 5vh;
+  align-self: center;
+  color: #e0354b;
+  font-weight: bold;
+}
+
+.App hr {
+  border: none;
+  border-bottom:0.5vh solid #e0354b;
+}
+
+.App-body {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  height: 60vh;
+}
+
+.App-body p {
+  margin: 5vh 0 0 5vh;
+}
+
+.App-body form {
+  margin: 5vh;
+  display: flex;
+  gap: 2vh;
+}
+
+.App-footer {
+  display: block;
+  margin: 5vh;
+  font-style: italic;
+  font-weight: bold;
+}
